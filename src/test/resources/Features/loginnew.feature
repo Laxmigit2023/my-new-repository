@@ -3,10 +3,11 @@ Feature: OrangeHRM Login
   Background:
 
 
-  @Smoke @
+  @Smoke @login
   Scenario: Successful login with valid credentials
     Given user is on the OrangeHRM login page
-    When user enters username "Admin" and password "admin123"
+    When user enters username "Admin"
+    And  password "admin123"
    And clicks the login button
     Then user should be redirected to the dashboard
 
@@ -28,7 +29,7 @@ Feature: OrangeHRM Login
     And clicks the login button
     Then an error message "Required" should be displayed for the password field
 
-  @Regression
+  @Regression @login
   Scenario: Login with only password
     When user enters username "" and password "admin123"
     And clicks the login button

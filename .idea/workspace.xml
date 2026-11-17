@@ -9,6 +9,13 @@
   <component name="ChangeListManager">
     <list default="true" id="591973a9-deb4-4892-be08-1502eda57976" name="Changes" comment="feature file added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/loginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/loginstepsnew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/loginstepsnew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/driver_factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/driver_factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/runnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/runnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/loginnew.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/loginnew.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/logpage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/logpage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +37,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Laxmigit2023"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Laxmigit2023&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Laxmigit2023/my-new-repository.git",
-    "accountId": "4e44f4a3-9735-494a-b382-1fd3d58e6227"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Laxmigit2023/my-new-repository.git&quot;,
+    &quot;accountId&quot;: &quot;4e44f4a3-9735-494a-b382-1fd3d58e6227&quot;
   }
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -86,6 +96,7 @@
     "Cucumber Java.Scenario: login with valid user name & valid password.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.runnerClass.executor": "Run",
     "TestNG.testRunner.executor": "Run",
@@ -98,7 +109,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -247,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794567956320</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature file added">
+      <option name="closed" value="true" />
+      <created>1794569369364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1794569369364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

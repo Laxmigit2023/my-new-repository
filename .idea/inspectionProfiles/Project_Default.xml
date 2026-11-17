@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="orangeHrmFramework" />
+          <option value="orangeHrmFramework" />
+          <option value="orangeHrmFramework" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="commons-codec:commons-codec:1.11" />
+          <option value="org.apache.commons:commons-compress:1.21" />
+          <option value="org.apache.poi:poi-ooxml:5.2.3" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Fixed in branch" />
+          <option value="Fixed in branch" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

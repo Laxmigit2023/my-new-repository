@@ -20,7 +20,8 @@ public class loginPage {
         // driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
         driver_factory.initializeddriver();  //WebDriver driver= new Chromedriver //classname.methodname
-        driver_factory.getDriver().get(utilityFetchProperty.fetchPropertyValue("url"));// driver replacement>> driver_factory.getDriver()
+        driver_factory.getDriver().get(utilityFetchProperty.fetchPropertyValue("url"));
+        // driver replacement>> driver_factory.getDriver()
         driver_factory.getDriver().manage().window().maximize();   //driver>> driver_factory.getDriver()
         Thread.sleep(1000);
     }

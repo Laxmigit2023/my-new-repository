@@ -22,11 +22,8 @@ public class driver_factory {
     public  static void initializeddriver() throws IOException {
         String browsername = utilityFetchProperty.fetchPropertyValue("browser");
 
-        switch (browsername) {  //=edge
+        switch (browsername) {
             case "Chrome":
-//                 ChromeOptions ops = new ChromeOptions();
-//                ops.addArguments("--remote-allow-origins=*");
-//                driver = new ChromeDriver(ops);
                 driver = new ChromeDriver();
                 setDriver(driver);
                 break;

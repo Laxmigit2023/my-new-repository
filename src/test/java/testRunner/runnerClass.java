@@ -6,8 +6,9 @@ import io.cucumber.testng.CucumberOptions;
 
     @CucumberOptions(features ={"src/test/resources/Features"},
             glue = {"stepDefinitions","hooks"},
-           tags = "@homepages or @sanity",
+           tags = " @sanity",
          plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+
 
     public class runnerClass extends AbstractTestNGCucumberTests {
 //

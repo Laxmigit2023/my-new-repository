@@ -4,7 +4,7 @@ Feature: login Validation
 #    Given  Iam in the login page
 
 
-  @login
+  @login @regression @sanity
   Scenario: login with valid user name & valid password
     Given user in the login page
     When user login with valid username and valid password
@@ -14,7 +14,7 @@ Feature: login Validation
     Then successful login
 #    And i can naviagte to the homepage
 
-  @smoke @login
+  @smoke
 #  Scenario: login with valid user name &  invalid password
 ##    Given Iam in the login page
 #    When login with valid username "Admin" & Invalid password"admin12"
